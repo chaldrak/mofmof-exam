@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root 'properties#new'
+  root 'properties#index'
   resources :railways
   resources :properties
 end

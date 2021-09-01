@@ -1,5 +1,4 @@
 <%= form_with(model: property, local: true) do |form| %>
-  <h2>Register Property</h2>
   <% if property.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(property.errors.count, "error") %> prohibited this property from being saved:</h2>
